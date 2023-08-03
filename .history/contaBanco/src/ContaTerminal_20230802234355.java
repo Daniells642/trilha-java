@@ -9,8 +9,6 @@ public class ContaTerminal {
 
 
 
-
-
     public static void main(String[] args) throws Exception {
         //TODO: Conhecer e importar a classe Scanner
 
@@ -18,11 +16,10 @@ public class ContaTerminal {
         System.out.print("Por favor, digite o número da agência: ");
         String numeroAgencia = scanner.nextLine();
 
-        if( numeroAgencia != "067-8" ){
+        if( numeroAgencia == agencia ){
             System.out.println("deu certo!");
-        }
-        else{
-        System.out.println("deu ruim");
+        }else{
+        System.out.println("deu ruim")
 
     
     };

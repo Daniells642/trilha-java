@@ -2,31 +2,20 @@ import java.util.Scanner;
 
 public class ContaTerminal {
 
+
     private int numero = 1021;
     private String agencia = "067-8";
     private String nomeCliente = "MARIO ANDRADE";
     private Double saldo = 237.48;
-
-
-
-
 
     public static void main(String[] args) throws Exception {
         //TODO: Conhecer e importar a classe Scanner
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Por favor, digite o número da agência: ");
-        String numeroAgencia = scanner.nextLine();
+        String agencia = scanner.nextLine();
 
-        if( numeroAgencia != "067-8" ){
-            System.out.println("deu certo!");
-        }
-        else{
-        System.out.println("deu ruim");
-
-    
-    };
-
+        System.out.println("\n" + agencia);
 
         //Exibir as mensagens para nosso usuário
 

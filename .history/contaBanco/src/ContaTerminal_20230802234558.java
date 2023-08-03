@@ -18,7 +18,7 @@ public class ContaTerminal {
         System.out.print("Por favor, digite o número da agência: ");
         String numeroAgencia = scanner.nextLine();
 
-        if( numeroAgencia != "067-8" ){
+        if( numeroAgencia != "067-8"  ){
             System.out.println("deu certo!");
         }
         else{
