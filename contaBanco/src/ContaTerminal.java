@@ -2,31 +2,22 @@ import java.util.Scanner;
 
 public class ContaTerminal {
 
-    private int numero = 1021;
-    private String agencia = "067-8";
-    private String nomeCliente = "MARIO ANDRADE";
-    private Double saldo = 237.48;
-
-
-
-
-
     public static void main(String[] args) throws Exception {
         //TODO: Conhecer e importar a classe Scanner
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Por favor, digite o número da agência: ");
-        String numeroAgencia = scanner.nextLine();
+        System.out.print("Por favor, digite o número da agência: ");        
+        int numero = scanner.nextInt();
+        System.out.print("Por favor, digite a agência: ");
+        String agencia = scanner.next();
+        System.out.print("Por favor, digite seu nome: ");
+        String nome = scanner.next();
+        System.out.print("Por favor, digite seu saldo: ");
+        Double saldo = scanner.nextDouble();
 
-        if( numeroAgencia != "067-8" ){
-            System.out.println("deu certo!");
-        }
-        else{
-        System.out.println("deu ruim");
+        System.out.println("Olá " + nome + " , obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo de " + saldo + " reais já está disponível para saque.");
 
-    
     };
-
 
         //Exibir as mensagens para nosso usuário
 
@@ -34,4 +25,3 @@ public class ContaTerminal {
 
         //Exibir a mensagem conta criada
     }
-}
