@@ -8,8 +8,13 @@ public class ResultadoEscolar {
         System.out.println("Digite uma nota: ");
         int nota = scanner.nextInt();
 
-        if (nota >= 7 )
+        // Utilizando if ternário
+        // String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+        //System.out.println("Aprovado!");
+
+        if (nota >= 7 ) {
             System.out.println("Aprovado!");
+        }
 
         else if (nota >= 5 && nota < 7)
             System.out.println("Prova de recuperação.");
