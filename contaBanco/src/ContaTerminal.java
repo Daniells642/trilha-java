@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class ContaTerminal {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         //TODO: Conhecer e importar a classe Scanner
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Por favor, digite o número da agência: ");        
         int numero = scanner.nextInt();
         System.out.print("Por favor, digite a agência: ");
