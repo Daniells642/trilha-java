@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0d27672-cffe-4280-ace5-a342c729785e" name="Changes" comment="Estruturas condicionais">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AboutMeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CepInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExemploExcecao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FormatadorCepExemplo.java" afterDir="false" />
+    <list default="true" id="a0d27672-cffe-4280-ace5-a342c729785e" name="Changes" comment="Tratamento de exceções">
+      <change afterPath="$PROJECT_DIR$/src/desafios/ProcessoSeletivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafios/desafio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafios/desafio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafios/desafio3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,49 +52,73 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel/Documents/BootCamp-DIO/curso Java/trilha-java/controleFluxo&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FormatadorCepExemplo">
-    <configuration name="AboutMeException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AboutMeException" />
+  <component name="RunManager" selected="Application.ProcessoSeletivo">
+    <configuration name="ExemploFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExemploFor" />
       <module name="controleFluxo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploBreakContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExemploBreakContinue" />
+    <configuration name="ProcessoSeletivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.ProcessoSeletivo" />
       <module name="controleFluxo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExemploDoWhile" />
+    <configuration name="ProcessoSletivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.ProcessoSletivo" />
       <module name="controleFluxo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExemploWhile" />
+    <configuration name="desafio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.desafio2" />
       <module name="controleFluxo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormatadorCepExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FormatadorCepExemplo" />
+    <configuration name="desafio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.desafio3" />
       <module name="controleFluxo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FormatadorCepExemplo" />
-        <item itemvalue="Application.AboutMeException" />
-        <item itemvalue="Application.ExemploDoWhile" />
-        <item itemvalue="Application.ExemploWhile" />
-        <item itemvalue="Application.ExemploBreakContinue" />
+        <item itemvalue="Application.ProcessoSeletivo" />
+        <item itemvalue="Application.ProcessoSletivo" />
+        <item itemvalue="Application.desafio2" />
+        <item itemvalue="Application.ExemploFor" />
+        <item itemvalue="Application.desafio3" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691246494051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tratamento de exceções">
+      <created>1691256459441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691256459441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +181,7 @@
     <MESSAGE value="condicional encadeada" />
     <MESSAGE value="switchCase" />
     <MESSAGE value="Estruturas condicionais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estruturas condicionais" />
+    <MESSAGE value="Tratamento de exceções" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tratamento de exceções" />
   </component>
 </project>
