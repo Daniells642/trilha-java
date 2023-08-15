@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0d27672-cffe-4280-ace5-a342c729785e" name="Changes" comment="desafios">
-      <change afterPath="$PROJECT_DIR$/src/desafios/ControleFluxo/Contador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafios/ControleFluxo/ParametrosInvalidosException.java" afterDir="false" />
+    <list default="true" id="a0d27672-cffe-4280-ace5-a342c729785e" name="Changes" comment="desafio - controle de fluxo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafios/ControleFluxo/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/ControleFluxo/Contador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7083ff01-e8fd-4e01-bdc8-01b615ea8f4e" />
+        <option name="url" value="https://github.com/Daniells642/trilha-java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/PlanoOperadora.java" root0="SKIP_INSPECTION" />
@@ -178,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691886929907</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="desafio - controle de fluxo.">
+      <created>1692065770189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692065770189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="desafio - controle de fluxo.">
+      <created>1692065820405</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692065820405</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +214,7 @@
     <MESSAGE value="Estruturas condicionais" />
     <MESSAGE value="Tratamento de exceções" />
     <MESSAGE value="desafios" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafios" />
+    <MESSAGE value="desafio - controle de fluxo." />
+    <option name="LAST_COMMIT_MESSAGE" value="desafio - controle de fluxo." />
   </component>
 </project>
