@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0d27672-cffe-4280-ace5-a342c729785e" name="Changes" comment="Tratamento de exceções">
-      <change afterPath="$PROJECT_DIR$/src/desafios/ProcessoSeletivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafios/desafio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafios/desafio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafios/desafio3.java" afterDir="false" />
+    <list default="true" id="a0d27672-cffe-4280-ace5-a342c729785e" name="Changes" comment="desafios">
+      <change afterPath="$PROJECT_DIR$/src/desafios/ControleFluxo/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafios/ControleFluxo/ParametrosInvalidosException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,20 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel/Documents/BootCamp-DIO/curso Java/trilha-java/controleFluxo&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ProcessoSeletivo">
+  <component name="RunManager" selected="Application.Contador">
+    <configuration name="Contador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.ControleFluxo.Contador" />
+      <module name="controleFluxo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.ControleFluxo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExemploFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExemploFor" />
       <module name="controleFluxo" />
@@ -65,7 +76,7 @@
       <module name="controleFluxo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafios.*" />
+          <option name="PATTERN" value="desafios.ControleFluxo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,7 +89,7 @@
       <module name="controleFluxo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafios.*" />
+          <option name="PATTERN" value="desafios.ControleFluxo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,20 +102,7 @@
       <module name="controleFluxo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="desafio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desafios.desafio3" />
-      <module name="controleFluxo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="desafios.*" />
+          <option name="PATTERN" value="desafios.ControleFluxo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Contador" />
         <item itemvalue="Application.ProcessoSeletivo" />
         <item itemvalue="Application.ProcessoSletivo" />
         <item itemvalue="Application.desafio2" />
         <item itemvalue="Application.ExemploFor" />
-        <item itemvalue="Application.desafio3" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691256459441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="desafios">
+      <created>1691886929907</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691886929907</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +187,7 @@
     <MESSAGE value="switchCase" />
     <MESSAGE value="Estruturas condicionais" />
     <MESSAGE value="Tratamento de exceções" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tratamento de exceções" />
+    <MESSAGE value="desafios" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafios" />
   </component>
 </project>
